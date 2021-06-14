@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Game {
 
-    private int mehmet;
     private ArrayList<Character> vowels;
     private ArrayList<Character> consonants;
     boolean isEnglish;
