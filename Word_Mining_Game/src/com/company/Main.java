@@ -20,11 +20,11 @@ public class Main {
         while(true) {
             //Naming part
             //Player 1
-            System.out.println("\nP1 Name = ");
+            System.out.println("\nPlayer 1 Name = ");
             String p1Name = scanner.next();
 
             //Player 2
-            System.out.println("P2 Name = ");
+            System.out.println("Player 2 Name = ");
             String p2Name = scanner.next();
 
             //Admin
