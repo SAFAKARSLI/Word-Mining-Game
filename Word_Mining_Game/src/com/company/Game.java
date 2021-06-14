@@ -64,8 +64,7 @@ public class Game {
     public void printLetters(ArrayList<Character> array) {
         int PL = 0;
         while(PL < array.size()) {
-            System.out.println("_________________");
-            System.out.println("| " + array.get(PL) + " | "+array.get(PL+1)+ " | "+array.get(PL+2)+ " | "+array.get(PL+3)+ " |");
+            System.out.println(array.get(PL) + "  "+array.get(PL+1)+ "  "+array.get(PL+2)+ "  "+array.get(PL+3));
             PL += 4;
         }
         System.out.println("-----------------");
