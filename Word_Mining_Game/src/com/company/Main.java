@@ -144,8 +144,8 @@ public class Main {
         sleep(2000);
         System.out.println(winner.toUpperCase() + " has won the game!!!\n");
 
-        System.out.println("Player 1's score " + player1.getScore() +
-                "\nPlayer 2's score "  + player2.getScore());
+        System.out.println(player1.getName()+"'s score " + player1.getScore() +
+                "\n"+player2.getName()+"'s score "  + player2.getScore());
         return winner;
     }
 
