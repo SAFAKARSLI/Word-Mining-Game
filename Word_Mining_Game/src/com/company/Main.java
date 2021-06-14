@@ -72,6 +72,7 @@ public class Main {
 
             //Game starts
             Game game = new Game(isEnglish);
+
             ArrayList<Character> letters = game.letterChoosing();
 
             System.out.println("=============================\n"+
@@ -147,7 +148,7 @@ public class Main {
         System.out.println(winner.toUpperCase() + " has won the game!!!\n");
 
         System.out.println(player1.getName()+"'s score " + player1.getScore() +
-                "\n"+player2.getName()+"'s score "  + player2.getScore());
+                "\n"+ player2.getName()+"'s score "  + player2.getScore());
         return winner;
     }
 

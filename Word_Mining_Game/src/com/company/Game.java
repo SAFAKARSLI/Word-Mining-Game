@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Game {
 
-    private int safa;
+    private int furkan;
     private ArrayList<Character> vowels;
     private ArrayList<Character> consonants;
     boolean isEnglish;
@@ -70,9 +70,9 @@ public class Game {
         System.out.println("-----------------");
     }
 
-    public boolean doYouAccept(Player player,String word) {
+    public boolean doYouAccept(Player player, String word) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Does "+player.getName()+" (admin) accept the word ("+word+")? (y/n)");
+        System.out.println("Does "+ player.getName()+" (admin) accept the word ("+word+")? (y/n)");
         String answer = scanner.next();
 
         switch (answer) {
@@ -90,7 +90,7 @@ public class Game {
         }
     }
 
-    public String askForWord(Player player,ArrayList<Character> array) {
+    public String askForWord(Player player, ArrayList<Character> array) {
         //To not mutate the given array
         ArrayList<Character> subArr = new ArrayList<Character>(array);
 
@@ -127,7 +127,7 @@ public class Game {
 
     }
 
-    public int move(Player first, Player second,Player admin, ArrayList<Character> letters) {
+    public int move(Player first, Player second, Player admin, ArrayList<Character> letters) {
         printLetters(letters);
         String word = askForWord(first,letters);
 
